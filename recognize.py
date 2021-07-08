@@ -91,7 +91,7 @@ with tf.Session() as sess:
 
     # restore parameters
     saver = tf.train.Saver()
-    saver.restore(sess, tf.train.latest_checkpoint('asset/train'))
+    saver.restore(sess, ('asset/train/model.ckpt-205919.index'))
     # run session
     label = sess.run(y, feed_dict={x: mfcc})
 
