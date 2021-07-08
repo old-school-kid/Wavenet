@@ -1,2 +1,22 @@
-model_checkpoint_path: "model.ckpt-205919"
-all_model_checkpoint_paths: "model.ckpt-205919"
+int main(){
+    IOS
+    cases{
+        int n;
+        cin>>n;
+        int k;
+        cin>>k;
+        int backward=0;
+int forward=0;
+int answer;
+for(int i= 0; i<n; i++)
+{
+forward=backward^i;
+cout<<forward<<endl;
+cout.flush();
+cin>>answer;
+if(answer==1) break;
+if(answer==-1) return 0;
+backward=i;
+}
+}
+}
