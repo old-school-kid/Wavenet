@@ -1,22 +1,2 @@
-int main(){
-    IOS
-    cases{
-        int n;
-        cin>>n;
-        int k;
-        cin>>k;
-        int backward=0;
-int forward=0;
-int answer;
-for(int i= 0; i<n; i++)
-{
-forward=backward^i;
-cout<<forward<<endl;
-cout.flush();
-cin>>answer;
-if(answer==1) break;
-if(answer==-1) return 0;
-backward=i;
-}
-}
-}
+model_checkpoint_path: "buriburisuri"
+all_model_checkpoint_paths: "buriburisuri"
